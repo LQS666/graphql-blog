@@ -2,9 +2,13 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
-import './header.css'
 
-
+const StyledHeander = styled.header`
+  width: 100%;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding: 1.5rem 1.1rem;
+`
 
 const StyledContainerHeader = styled.div`
   margin: 0 auto;
@@ -17,7 +21,7 @@ const StyledH1 = styled.h1`
 
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <StyledHeander>
     <StyledContainerHeader>
 
       <StyledH1>
@@ -49,7 +53,7 @@ const Header = ({ siteTitle }) => (
       </Link>
 
     </StyledContainerHeader>
-  </header>
+  </StyledHeander>
 )
 
 Header.propTypes = {
