@@ -4,16 +4,12 @@
 - [GatsbyJS](https://www.gatsbyjs.org/)
 - [GraphCMS](https://graphcms.com/)
 
-## Features
-
-- This section will be updated soon
-
 ## Technologies
 * GatsbyJS - version 2.1.20
 * GraphCMS
 
 ## Status
-Project is unfinished.
+Project is finished.
 
 ## Compilation and usage
 
@@ -22,6 +18,15 @@ Project is unfinished.
 * npm install 
 * gatsby develop
 > Then go to http://localhost:8000/ and see results
+
+## Screenshots
+
+<div align="center">
+    <img src="screenshots/1.jpg" alt="screenshot" width='800px' />
+</div>
+<div align="center">
+    <img src="screenshots/2.jpg" alt="screenshot" width='800px' />
+</div>
 
 ### License
 
